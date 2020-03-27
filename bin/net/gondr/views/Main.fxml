@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0"
+	xmlns:fx="http://javafx.com/fxml/1"
+	xmlns="http://javafx.com/javafx/8.0.141"
+	fx:controller="net.gondr.views.MainController">
+	<children>
+		<Canvas fx:id="gameCanvas" height="804.0" layoutX="6.0"
+			layoutY="3.0" width="404.0" AnchorPane.leftAnchor="6.0" />
+	</children>
+</AnchorPane>
